@@ -1,0 +1,23 @@
+{
+    "name": "coreto/coreto-reputation-collection-sdk",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Coreto\\CoretoReputationCollectionSDK\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "gasher",
+            "email": "robert.vintila@algotech.solutions"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "dont-discover": [
+                "*"
+            ]
+        }
+    }
+}
