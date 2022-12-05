@@ -1,10 +1,10 @@
 <?php
 
-namespace Coreto\CoretoReputationCollectionSDK;
+namespace Coreto\CoretoRCSSDK;
 
-use Coreto\CoretoReputationCollectionSDK\Exceptions\InvalidActionException;
-use Coreto\CoretoReputationCollectionSDK\Exceptions\InvalidScoreChangeException;
-use Coreto\CoretoReputationCollectionSDK\Exceptions\InvalidDataSchemaException;
+use Coreto\CoretoRCSSDK\Exceptions\InvalidActionException;
+use Coreto\CoretoRCSSDK\Exceptions\InvalidScoreChangeException;
+use Coreto\CoretoRCSSDK\Exceptions\InvalidDataSchemaException;
 
 class Client
 {

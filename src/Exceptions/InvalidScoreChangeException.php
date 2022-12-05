@@ -1,6 +1,6 @@
 <?php
 
-namespace Coreto\CoretoReputationCollectionSDK\Exceptions;
+namespace Coreto\CoretoRCSSDK\Exceptions;
 
 class InvalidScoreChangeException extends \Exception
 {
