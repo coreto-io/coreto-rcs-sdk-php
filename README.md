@@ -1,6 +1,6 @@
 # Coreto RCS SDK
 
-An Laravel SDK used for the collection and validation of the KPIs used in the Coreto DRS
+An SDK used for the collection and validation of the KPIs used in the Coreto DRS
 
 ## Dependencies
 
