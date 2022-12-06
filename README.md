@@ -1,6 +1,6 @@
-# Coreto KPI collection SDK
+# Coreto RCS SDK
 
-An SDK used to for the collection and validation of the KPIs used in the Coreto Trust and Performance Ledger
+An SDK used for the collection and validation of the KPIs used in the Coreto DRS
 
 ## Dependencies
 
@@ -11,7 +11,7 @@ An SDK used to for the collection and validation of the KPIs used in the Coreto 
 To install simply run:
 
 ```
-composer require coreto/coreto-reputation-collection-sdk
+composer require coreto/coreto-rcs-sdk
 ```
 
 Or add it to `composer.json` manually:
@@ -19,7 +19,7 @@ Or add it to `composer.json` manually:
 ```json
 {
     "require": {
-        "coreto/coreto-reputation-collection-sdk": "~1"
+        "coreto/coreto-rcs-sdk": "~1"
     }
 }
 ```
@@ -27,9 +27,9 @@ Or add it to `composer.json` manually:
 ## Direct usage
 
 ```php
-use Coreto\CoretoReputationCollectionSDK\Client as CoretoReputationCollectionClient;
+use Coreto\CoretoRCSSDK\Client;
 
-$reputationCollectionClient = new ReputationCollectionClient(
+$reputationCollectionClient = new Client(
     [
         'react' => null, // Key-value pairs of allowed action and allowed fluctuation for that action
         'comment' => 2,
@@ -51,7 +51,7 @@ $reputationCollectionClient->validate([
 ```php
 // Initialization exception
 try {
-$reputationCollectionClient = new ReputationCollectionClient(
+$reputationCollectionClient = new Client(
     []
 );
 } catch (Exception $e) {
@@ -59,7 +59,7 @@ $reputationCollectionClient = new ReputationCollectionClient(
 }
 
 // Score fluctuation error
-$reputationCollectionClient = new ReputationCollectionClient(
+$reputationCollectionClient = new Client(
     [
         'react' => 1
     ]
@@ -79,7 +79,7 @@ try {
 }
 
 // Invalid action type error
-$reputationCollectionClient = new ReputationCollectionClient(
+$reputationCollectionClient = new Client(
     [
         'react' => null,
         'comment' => 2,

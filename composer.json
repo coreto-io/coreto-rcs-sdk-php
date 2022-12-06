@@ -1,9 +1,13 @@
 {
     "name": "coreto/coreto-reputation-collection-sdk",
+    "description": "An SDK used for the collection and validation of the KPIs used in the Coreto DRS",
     "type": "library",
+    "keywords": ["php", "coreto", "did", "drs", "ledger", "trust", "performance"],
+    "homepage": "https://github.com/coreto-io/coreto-rcs-sdk-php",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Coreto\\CoretoReputationCollectionSDK\\": "src/"
+            "Coreto\\CoretoRCSSDK\\": "src/"
         }
     },
     "authors": [
