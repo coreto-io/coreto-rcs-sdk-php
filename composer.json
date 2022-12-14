@@ -1,5 +1,5 @@
 {
-    "name": "coreto/coreto-reputation-collection-sdk",
+    "name": "coreto/coreto-rcs-sdk",
     "description": "An SDK used for the collection and validation of the KPIs used in the Coreto DRS",
     "type": "library",
     "keywords": ["php", "coreto", "did", "drs", "ledger", "trust", "performance"],
